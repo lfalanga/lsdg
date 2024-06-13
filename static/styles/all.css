@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #345fA9;
+    --secondary-color: #339999;
+    --tertiary-color: #993366;
+    --quaternary-color: #993399;
+    --quinary-color: #339966;
+    --form-control-color: #339999;
+    --form-control-disabled: #959495;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+    width: initial-width;
+}
+  
+
+html, body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 75%;
+    border: 1px dotted var(--primary-color);
+    margin-top: 1.5em;
+}
